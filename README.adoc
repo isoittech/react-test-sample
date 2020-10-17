@@ -1,0 +1,16 @@
+:toc:
+
+= React Test Sample
+
+このプロジェクトは、とあるUdemy講座の題材となるアプリケーションで、React製Webアプリケーションのテストを主眼においている。
+
+== メモ
+
+=== 構築時
+
+```shell
+$ npx create-react-app . react-test --template redux
+$ cd react-test
+$ npm i axios
+$ npm i -D msw @testing-library/react-hooks react-test-renderer
+```
